@@ -1,6 +1,6 @@
 body {
     font-family: "Monaco", "Courier New", monospace;
-    background-color: FFF275;
+    background-color: #375E97;
     margin: 0;
     padding-top: 100px;
     display: flex;
@@ -18,7 +18,6 @@ body {
     height: 400px;
     display: inline;
     
-    
 }
   
     .action_btn {
@@ -26,7 +25,18 @@ body {
     height: 400px;
     margin: 0 auto;
     display: inline;
-    font-size: 1.6rem;
+    font-size: 3rem;
+    background-color: #FFBB00; /* Apply the button background color */
+    border: none; /* Optional: Remove border for a cleaner look */
+    color: white; /* Optional: Set text color for contrast */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    cursor: pointer; /* Optional: Add a pointer cursor on hover */
+    transition: background-color 0.3s; /* Optional: Smooth hover effect */
 }
+
+.action_btn:hover {
+    background-color: #FB6542; /*different colour for on hover */
+}
+
 
     
