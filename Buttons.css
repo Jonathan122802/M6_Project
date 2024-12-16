@@ -7,19 +7,25 @@ body {
     justify-content: center;
     
     /* align-items: center; */
-    height: 1000vh;
+    height: 2000vh;
     overflow: hidden;
 }
 
+
 .buttons {
-    width: 200px;
-    margin: 0 auto;
+
+    width: 400px;
+    height: 400px;
+    /* margin: 0 auto; */
     display: inline;
-    transform: scale(1.5);
+    
 }
   
     .action_btn {
-    width: 200px;
+        position:absolute;
+        padding-top: 50px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto;
     display: inline;}
 
