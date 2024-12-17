@@ -17,6 +17,7 @@ body {
     width: 400px;
     height: 400px;
     display: inline;
+    gap: 20px;
     
 }
   
@@ -24,14 +25,16 @@ body {
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    display: inline;
+    display: flex;
+    /* padding: 20px; */
     font-size: 3rem;
-    background-color: #FFBB00; /* Apply the button background color */
-    border: none; /* Optional: Remove border for a cleaner look */
-    color: white; /* Optional: Set text color for contrast */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    cursor: pointer; /* Optional: Add a pointer cursor on hover */
-    transition: background-color 0.3s; /* Optional: Smooth hover effect */
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #FFBB00;   /* Button bachground colour */
+    border: none;
+    color: white; /* text color  */
+    border-radius: 10px; /*  rounded corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
 }
 
 .action_btn:hover {
