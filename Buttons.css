@@ -17,7 +17,6 @@ body {
     width: 400px;
     height: 400px;
     display: inline;
-    gap: 20px;
     
 }
   
@@ -38,6 +37,7 @@ body {
 }
 
 .action_btn:hover {
+    
     background-color: #FB6542; /*different colour for on hover */
 }
 
