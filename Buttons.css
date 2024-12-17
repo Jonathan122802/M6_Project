@@ -1,45 +1,35 @@
 body {
     font-family: "Monaco", "Courier New", monospace;
-    background-color: #375E97;
+    background-color: #365ca8;
     margin: 0;
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    
     /* align-items: center; */
     height: 2000vh;
     overflow: hidden;
 }
 
-
 .buttons {
-
     width: 400px;
     height: 400px;
     display: inline;
-    
 }
-  
-    .action_btn {
+
+.action_btn {
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    display: flex;
-    /* padding: 20px; */
-    font-size: 3rem;
-    margin-right: 10px;
-    margin-left: 10px;
-    background-color: #FFBB00;   /* Button bachground colour */
-    border: none;
+    display: inline;
+    font-size: 1.6rem;
+    background-color: #fcc726; /* button background color */
+    border: none; 
     color: white; /* text color  */
-    border-radius: 10px; /*  rounded corners */
-    transition: background-color 0.3s; /* Smooth hover effect */
+    font-size: 50px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /*Smooth hover effect */
 }
 
 .action_btn:hover {
-    
-    background-color: #FB6542; /*different colour for on hover */
+    background-color: #fa7014; /* hover color */
 }
-
-
-    
