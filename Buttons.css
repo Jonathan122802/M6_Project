@@ -1,6 +1,6 @@
 body {
     font-family: "Monaco", "Courier New", monospace;
-    background-color: #365ca8;
+    background-color:  #353535;
     margin: 0;
     padding-top: 100px;
     display: flex;
@@ -13,20 +13,47 @@ body {
     display: inline;
 }
 
-.action_btn {
+
+.singleplayer {
     width: 400px;
     height: 400px;
-    margin: 0 auto;
+    margin: 25px;
     display: inline;
-    font-size: 1.6rem;
-    background-color: #fcc726; /* button background color */
-    border: none; 
+    background-color: #fcc726;
+    /* button background color */
+    border: none;
+    color: white;
+    /* text color  */
+    font-size: 50px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    /*Smooth hover effect */
+
+}
+
+
+.multiplayer {
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+    display: inline;
+    background-color: #69ddff; /* button background color */
+    border: none;
     color: white; /* text color  */
     font-size: 50px;
     border-radius: 10px;
-    transition: background-color 0.3s; /*Smooth hover effect */
+    transition: background-color 0.3s;  /*Smooth hover effect */
+
 }
 
-.action_btn:hover {
-    background-color: #fa7014; /* hover color */
+.singleplayer:hover {
+    background-color: #fa7014;
+    transform: scale(1.03);
+    
+}
+
+.multiplayer:hover {
+    background-color: #fa7014;
+    transform: scale(1.03);
+    
 }
