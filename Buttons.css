@@ -35,15 +35,11 @@ body {
     /* Increased height */
     line-height: 80px;
     /* Matches height for vertical centering */
-    background-color: #fcc726;
+    background-color: rgba(252, 199, 38, 1);
     /* Default color */
     margin: 10px;
     border-radius: 10px;
     /* Slightly larger border-radius for smooth corners */
-    transition: background-color 0.3s ease;
-
-
-
 }
 
 
@@ -66,24 +62,11 @@ body {
     /* Increased height */
     line-height: 80px;
     /* Matches height for vertical centering */
-    background-color: #69DDFF;
+    background-color: rgba(105, 220, 255, 1);
     /* Default color */
     margin: 10px;
     border-radius: 10px;
     /* Slightly larger border-radius for smooth corners */
-    transition: background-color 0.3s ease;
 
-
-}
-
-.singleplayer:hover {
-    background-color: #fa7014;
-    transform: scale(1.03);
-
-}
-
-.multiplayer:hover {
-    background-color: #fa7014;
-    transform: scale(1.03);
 
 }
